@@ -4,6 +4,8 @@
 A general term for loss of memory, language, problem-solving and other thinking abilities that are severe enough to interfere with daily life. 
 **Alzheimer’s** is the most common cause of dementia.
 
+<p align="center"><img src="images/types.jpeg" width=50% height=50% ></p>
+
 ### Detection of Dementia
 Patients suffering from Dementia have shrinkage of brain tissues and change in their speech patterns. 
 Thus dementia can be detected in two major ways:
@@ -18,6 +20,7 @@ Detecting at early stage can reduce damage to large extent.
 MRI images of Alzheimer Disease(AD) patients show both local and generalized shrinkage of brain tissues. There are various other factors like age,education and socioeconomic status that determines the course of the disease.
 We use Machine Learning techniques to detect dementia even at mild damage so that immediate treatment can be given.
 
+<p align="center"><img src="images/MRI.png" width=50% height=50% ></p>
 
 ### Dataset
 - We used MRI related dataset from Open Access Series of Imaging Studies (OASIS)
@@ -38,6 +41,8 @@ We use Machine Learning techniques to detect dementia even at mild damage so tha
 | ASF | Atlas Scaling Factor
 
 ### Correlation between Variables
+
+<p align="center"><img src="images/Correlation.png" width=50% height=50% ></p>
 
 ### Dementia and Gender
 
@@ -89,8 +94,11 @@ Relation between variables and CDR (Clinical Dementia Rating) :
 - Area under ROC curve (AUC) is between 0.5 to 1, 1 being best classifier.
 - We plot AUC for all three models to see difference between them.
 
+<p align="center"><img src="images/ROC.png" width=50% height=50% ></p>
 
 - Following graph shows relative feature importance in classification of Demented vs Non-Demented.
+
+<p align="center"><img src="images/Feature.png" width=50% height=50% ></p>
 
 - We observe that MMSE is the most important feature whereas gender and socio economic status are least important features.
 
@@ -101,6 +109,8 @@ Relation between variables and CDR (Clinical Dementia Rating) :
 - We use the classification based models: random forest, support vector machine (SVM) and XGBOOST to classify CDR.
 - We observe accuracy of 80% in case of SVM and accuracies of 73% and 78% in random forst and XGBOOST respectively.
 - Following graph shows relative feature importance in classification of CDR.
+
+<p align="center"><img src="images/Feature-CDR.png" width=50% height=50% ></p>
 
 - Similar to Dementia vs Non Dementia classification, we observe that MMSE is the most important feature whereas gender and socio economic status are least important features.
 
